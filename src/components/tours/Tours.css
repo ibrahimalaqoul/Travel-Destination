@@ -1,0 +1,11 @@
+img{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+}
+#name{
+    font-size: 30px;
+    color: rgb(54, 53, 53);
+    text-shadow: 0.5px 1px 8px #141414;
+    
+}
