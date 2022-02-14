@@ -5,11 +5,11 @@ export default function Tour(props) {
 
         <>
             {
-                props.data2.map((value,index) => {
+                props.data2.map(value => {
                     console.log(value.name);
                     return(
                 
-                    <div key={index}>
+                    <div key={value.id}>
                      <p id='name'>{value.name}</p>
                       <img src={value.image}/>
                       <hr>
