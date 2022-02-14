@@ -6,7 +6,7 @@ export default function Home(props){
     return(
         <>
     <Header/>
-    <Tour key ={props.data} data2={props.data} />
+    <Tour data2={props.data} />
     <Footer/>
         </>
     )
