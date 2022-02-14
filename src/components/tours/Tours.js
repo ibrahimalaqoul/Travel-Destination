@@ -12,6 +12,7 @@ export default function Tours(props) {
                         <Tour key={value.id} data3={value}/>
                         </Link>
                        
+
                     )
                  
                    
