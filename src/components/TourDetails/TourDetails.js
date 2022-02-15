@@ -16,7 +16,6 @@ export default function TourDetails(props) {
     
     return (
         <>
-        
 
             <Header />
             <div className='mainTourDetails'>
@@ -26,9 +25,7 @@ export default function TourDetails(props) {
              <p id='infoid'>
              {isAppear ? dataFiltered[0].info : `${dataFiltered[0].info.substring(0, 250)}`}
              {isAppear? <button onClick={clickhandle}>see less</button>:<button onClick={clickhandle}>see more</button> } 
-
-
-                    
+       
              </p>
            
             
